@@ -5,6 +5,8 @@ package com.stackroute.pe2;
 public class PowerOfFour {
     public static String powerOfFourChecker(int number)
     {
+        if(number<0)
+            return "False";
         if(number == 0)
             return "False";
         while(number != 1)
