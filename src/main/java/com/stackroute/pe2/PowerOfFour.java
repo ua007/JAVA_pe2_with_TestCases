@@ -1,3 +1,5 @@
+//check if the inputed number is power of four or not
+
 package com.stackroute.pe2;
 
 public class PowerOfFour {

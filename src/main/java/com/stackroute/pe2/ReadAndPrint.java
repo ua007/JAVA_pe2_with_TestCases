@@ -1,3 +1,5 @@
+//read an existing file and print its content with all in capital letters
+
 package com.stackroute.pe2;
 
 import java.io.*;

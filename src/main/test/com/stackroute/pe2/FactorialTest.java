@@ -6,12 +6,14 @@ import org.junit.Test;
 public class FactorialTest {
     Factorial ob=new Factorial();
 
+    //test case for 32-bit integer
     @Test
     public void factorialWithintandLongTest1()
     {
         String result=ob.printIntFactorials();
         assertEquals("\n1\n2\n6\n24\n120\n720\n5040\n40320\n362880\n3628800\n39916800\n479001600out of range",result);
     }
+    //test case for 64-bit integer
     @Test
     public void factorialWithintandLongTest2()
     {

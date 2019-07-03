@@ -8,6 +8,7 @@ import static org.junit.Assert.*;
 
 public class MemberVariableTest {
 
+    //creating the reference of the object
     MemberVariable ob = null;
 
     @Before
@@ -17,12 +18,15 @@ public class MemberVariableTest {
 
     }
 
+    //assigning null to object
     @After
     public void tearDown() throws Exception {
 
         ob = null;
 
     }
+
+    //test cases
 
     @Test
     public void displayDetails() {

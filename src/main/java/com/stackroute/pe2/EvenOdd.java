@@ -1,3 +1,5 @@
+//check if the input number is even or not
+
 package com.stackroute.pe2;
 
 public class EvenOdd {

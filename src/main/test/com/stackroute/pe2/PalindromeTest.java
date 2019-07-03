@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class PalindromeTest {
+    //success test case
     @Test
     public void givenStringIsPalindromeShouldReturnMessage()
     {
@@ -12,6 +13,7 @@ public class PalindromeTest {
         result=p1.palindromeChecker("1221");
         assertEquals("True",result);
     }
+    //failure test case
     @Test
     public void givenStringIsNotPalindromeShouldReturnMessage()
     {
@@ -20,6 +22,7 @@ public class PalindromeTest {
         result=p1.palindromeChecker("abcb");
         assertEquals("False",result);
     }
+    //no input test case
     @Test
     public void givenStringIsSpacePalindromeShouldReturnMessage()
     {
