@@ -1,10 +1,24 @@
 package com.stackroute.pe2;
-
+import org.junit.After;
+import org.junit.Before;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class FactorialTest {
-    Factorial ob=new Factorial();
+    
+    Factorial ob;
+
+    @Before
+    public void setUp() throws Exception
+    {
+        ob=new Factorial();
+    }
+
+    @After
+    public void tearDown() throws Exception {
+        ob=null;
+    }
+  
 
     //test case for 32-bit integer
     @Test
