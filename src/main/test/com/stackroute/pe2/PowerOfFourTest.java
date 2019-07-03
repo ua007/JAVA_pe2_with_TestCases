@@ -22,5 +22,13 @@ public class PowerOfFourTest {
         result=number.powerOfFourChecker(18);
         assertEquals("False",result);
     }
+    @Test
+    public void givenIntegerIsNotPowerOfFourShouldReturnMessage()
+    {
+        PowerOfFour number=new PowerOfFour();
+        String result;
+        result=number.powerOfFourChecker(-18);
+        assertEquals("False",result);
+    }
 
 }
